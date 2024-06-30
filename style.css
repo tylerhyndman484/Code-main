@@ -88,7 +88,7 @@ nav {
     padding-right: 20px;
 }
 
-.teaBoxes h4 {
+.teaBoxes h4 { 
     padding-top: 10px;
 }
 
@@ -96,9 +96,7 @@ nav {
     position: relative;
 }
 
-
-
-.locations {
+.locationLayout {
     background-image: url("./photos/img-locations-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,13 +104,19 @@ nav {
     margin-right: 50px;
     overflow: hidden;
     min-height: 500px;
+}
+
+.locations {
     display: flex;
     justify-content: center;
     gap: 40px;
     align-content: center;
     flex-wrap: wrap;
     line-height: 50px;
+    justify-self: auto;
+    align-self: auto;
 }
+
 
 .boxes {
     min-width: 300px;
