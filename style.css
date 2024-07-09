@@ -65,6 +65,7 @@ nav {
     margin-top: 50px;
     width: auto;
     padding-bottom: 20px;
+    position: relative;
 }
 
 .teaChoicesText {
@@ -97,14 +98,20 @@ nav {
 }
 
 .locationLayout {
-    background-image: url("./photos/img-locations-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: 50px;
-    margin-right: 50px;
     overflow: hidden;
-    min-height: 500px;
+    min-height: 500px; 
 }
+
+.locationLayout img {
+    position: absolute;
+    display: block;
+    /* margin-left: 200px; */
+    width: 100%;
+    min-width: auto;
+    max-width: auto;
+
+}
+
 
 .locations {
     display: flex;
